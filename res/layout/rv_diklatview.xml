@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:background="?attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textColor="#262626"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textAlignment="center"
+                android:text="Diklat Title"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/DiklatTitle" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textColor="#262626"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Tempat"
+                android:textSize="12dp"
+                android:layout_below="@+id/DiklatTitle"
+                android:id="@+id/DiklatTempat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#262626"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Description"
+                android:textSize="17sp"
+                android:layout_below="@+id/DiklatTempat"
+                android:id="@+id/DiklatDesc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#262626"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="16dp"
+                android:text="Organizer"
+                android:textSize="10sp"
+                android:layout_below="@+id/DiklatDesc"
+                android:id="@+id/DiklatOrganizer" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#262626"
+                android:layout_marginLeft="200dp"
+                android:layout_marginRight="16dp"
+                android:text="Start Date"
+                android:textSize="10sp"
+                android:layout_below="@+id/DiklatOrganizer"
+                android:id="@+id/DiklatStart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#262626"
+                android:layout_marginLeft="260dp"
+                android:layout_marginRight="16dp"
+                android:text="End Date"
+                android:textSize="10sp"
+                android:layout_below="@+id/DiklatOrganizer"
+                android:id="@+id/DiklatEnd" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
