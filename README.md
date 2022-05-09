@@ -4,6 +4,7 @@ Requirement : <br />
 
 Java (Android Studio)
 <br />MySQL
-<br />Code Editor
+<br />PHP
+<br />Code Editor (Visual Studio Code)
 
 Contact : muhjaury@gmail.com
