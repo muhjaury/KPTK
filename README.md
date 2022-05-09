@@ -1,4 +1,4 @@
-Project Android - Dashboard Karyawan dan Absen via Mobile
+Project Android - Dashboard Karyawan dan Attendence via Mobile
 
 Requirement : <br />
 
